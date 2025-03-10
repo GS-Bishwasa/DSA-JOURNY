@@ -1,21 +1,14 @@
 #include<iostream>
 using namespace std;
 void FindUnique(int arr[],int n){
-    for (int i = 0; i < n; i++)
-    {
-       for (int j = 0; j < n; j++)
-       {
-        if (arr[i]==arr[j])
-        {
-           
-        }else{
-            cout<< arr[i];
-        }
-        
-       }
-       
-    }
-    
+//    Using XOR(^)
+int ans =0;
+for (int i = 0; i < n; i++)
+{
+    ans=ans^arr[i];
+}
+
+    cout<<ans;
 }
 int main(){
 int arr[5]={1,1,2,2,3};
