@@ -5,6 +5,7 @@ using namespace std;
 int main(){
 // Vector is a dynamic array, it double its size when it fully filled
 vector<int> arr;
+
 cout<<"Capacity-->"<<arr.capacity()<<endl;
 
 arr.push_back(5);
@@ -43,5 +44,19 @@ for (int i:arr)
 cout<<"Before Clear Size"<<" "<<arr.size()<<endl;
 arr.clear();
 cout<<"After Clear Size"<<" "<<arr.size()<<endl;
+
+
+
+
+vector<int> arr1(5,1);
+vector<int> last(arr1);
+cout<<"Print arr1"<<endl;
+for (int i:last)
+{
+    cout<<i<<" ";
+}
+
+
+
 return 0;
 }
