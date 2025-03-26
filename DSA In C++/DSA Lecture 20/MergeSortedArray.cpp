@@ -33,7 +33,7 @@ while(i<m && j<n){
     // copy kardo second array ke remaining elements ko
     while (j<n)
     {
-        arr2[k]=arr2[j];
+        arr3[k]=arr2[j];
         j++;
         k++;
     }
