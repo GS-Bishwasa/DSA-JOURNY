@@ -7,7 +7,7 @@ int ans =0;
 {
     ans=ans^arr[i];
 }
-    for (int i = 0; i < n-1; i++)
+    for (int i = 1; i <= n-1; i++)
 {
     ans=ans^arr[i];
 }
