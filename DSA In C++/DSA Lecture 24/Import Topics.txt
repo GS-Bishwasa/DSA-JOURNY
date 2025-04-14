@@ -1,0 +1,19 @@
+Import Topics:-
+
+(1)Pigeonhole Theory:-
+if you have more items than containers, then at least one container must have more than one item.
+
+Ex:-
+• If you have 6 socks and 5 drawers, at least one drawer will have two socks. 
+• If you have 10 people and 9 birthday months, at least two people share the same birthday month. 
+• If you have 5 pigeons and 4 pigeonholes, at least one pigeonhole will have more than one pigeon. 
+
+
+(2)Catalan numbers:-
+sequence of positive integers that appear in many combinatorial problems.
+
+Ex:-
+• 1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, ...
+
+Formula for Catalan numbers:-
+C(n)=(2n)!/(n+1)!
