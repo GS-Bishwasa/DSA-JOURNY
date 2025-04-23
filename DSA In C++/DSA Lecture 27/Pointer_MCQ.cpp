@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 10th Question
+// 18th Question
 // void update(int *p){
 //     *p = (*p)  *  2;
 // }
@@ -89,9 +89,9 @@ int main()
     // cout << *(arr) << " " << *(arr + 3);
 
     // 13th Question
-    int arr[] = {11, 21, 31, 41};
-    int *ptr = arr++;
-    cout << *ptr << endl;
+    // int arr[] = {11, 21, 31, 41};
+    // int *ptr = arr++;
+    // cout << *ptr << endl;
 
     // 14th Question
     //  char ch = 'a';
