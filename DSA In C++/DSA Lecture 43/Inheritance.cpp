@@ -33,9 +33,9 @@ class Male: private Human {
         cout << "Male Sleeping" << endl;
     }
 
-    int getHeight() {
-        // return this->height;
-    }
+    // int getHeight() {
+    //     return this->height;
+    // }
 
 };
 
@@ -44,7 +44,7 @@ class Male: private Human {
 int main() {
 
     Male m1;
-    // cout << m1.height << endl;
+    m1.sleep();
 
 
 
